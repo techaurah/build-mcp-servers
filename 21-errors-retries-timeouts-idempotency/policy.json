@@ -1,0 +1,27 @@
+{
+  "error_policy": {
+    "caller_error": {
+      "channel": "tool result, isError true",
+      "auto_retry": false,
+      "example": "email fails validation"
+    },
+    "transient_upstream": {
+      "channel": "bounded internal retry, then isError marked transient",
+      "auto_retry": "server side, max 2, backoff with jitter"
+    },
+    "server_bug": {
+      "channel": "isError with reference id; detail in server logs only",
+      "auto_retry": false
+    }
+  },
+  "idempotent_writes": [
+    "capture_lead (key: normalised email)",
+    "book_appointment (key: caller supplied request id)"
+  ],
+  "tool_timeouts_seconds": {
+    "score_lead": 5,
+    "list_leads": 5,
+    "capture_lead": 10,
+    "book_appointment": 30
+  }
+}
