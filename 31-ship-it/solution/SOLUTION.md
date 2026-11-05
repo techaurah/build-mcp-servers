@@ -1,0 +1,3 @@
+# Solution for Lesson 31: Ship it: publish, document, and showcase your server
+
+Row discipline: the line must contain one verifiable capability and one honest limit, for example: 'LeadDesk MCP: capture, scoring, and approval gated booking over a local store, with a zero credential demo; teaching build, sends nothing and hosts nothing.' PR description: 'Adds my completed capstone from Lessons 28 to 31. The gate suite passes from a clean clone and the README's Limits section states what the teaching build does not do.' Anything grander (revolutionary, production ready, enterprise grade) fails the course's own audit spirit and, more practically, invites a maintainer to test the claim instead of the demo.
