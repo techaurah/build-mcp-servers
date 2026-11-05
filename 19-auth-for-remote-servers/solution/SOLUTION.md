@@ -1,0 +1,3 @@
+# Solution for Lesson 19: Authentication for remote servers: OAuth 2.1, tokens, and least privilege
+
+Sensible map: owner holds read, draft, and write. Contractor holds read on their assigned leads only and draft, with no write scope at all: they can prepare follow ups, never capture, book, or move stages. The hard refusal: booking an appointment (or any write) must fail even when a poisoned document instructs the model to try, because the tool checks the token's scopes server side and the contractor's token simply lacks write; the model cannot argue its way past a check it does not control. Enforcement lives inside the tool and the resource filters, keyed to the validated token, which is the only layer a steered model and a curious contractor both cannot edit.
