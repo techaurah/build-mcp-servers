@@ -1,0 +1,3 @@
+# Solution for Lesson 05: Choosing an SDK, and reading the specification without fear
+
+Grading notes for your own answer: the import line is decisive (`mcp.server.fastmcp` means official v1, `fastmcp` alone means standalone, `MCPServer` means official v2, `@modelcontextprotocol/sdk` means TypeScript). The transport shows in the run call or the client config (`stdio`, `streamable-http`, or the deprecated `sse`). A v2 tutorial breaks here at import time; an SSE tutorial breaks at connection time against current hosts; a standalone FastMCP tutorial may import cleanly only if the package is installed, then differ in decorator details. If your chosen tutorial hides its imports, that itself is the finding: do not build on code whose SDK line you cannot identify.
