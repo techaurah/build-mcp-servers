@@ -1,0 +1,3 @@
+# Solution for Lesson 02: The protocol on the wire: JSON-RPC, lifecycle, and capabilities
+
+The twin is permissive: it answers calls in any order, because its job is teaching message shapes. Production servers commonly track whether `initialize` has completed and return an error for requests that arrive before it, since capabilities have not been negotiated and the server cannot know which methods are legal. The fix pattern, in the solution's words: keep a boolean on the session, set it in the `initialize` branch, and guard the other branches. The SDK does this for you, which is one of the things you are paying it for in complexity saved.
