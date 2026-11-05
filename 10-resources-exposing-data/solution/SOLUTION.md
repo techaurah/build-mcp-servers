@@ -1,0 +1,3 @@
+# Solution for Lesson 10: Resources: exposing data the application controls
+
+The stages resource is static reference data the host can include whenever a user works with the pipeline: application controlled context, read only, safe to cache and repeat, which is the resource profile exactly. As a tool it would depend on the model remembering to call it before interpreting a stage, and models forget; as a resource the host can attach it by policy. Implementation follows the twin's pattern: one entry in RESOURCES with name, description, and `application/json`, and a read branch returning the stage list as JSON text. Your sentence should name who decides (the application), which is the classification test from Lesson 03.
