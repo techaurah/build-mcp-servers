@@ -1,0 +1,3 @@
+# Solution for Lesson 28: Capstone spec and scaffolding: LeadDesk MCP
+
+Example roadmap, for calibration: one, a Google Sheets backing store behind the Lesson 13 store contract, extending the state ladder to rung three. Two, a Streamable HTTP deployment with Lesson 19 scope tiers enforced per tool, extending the transport and auth lessons. Three, a second prompt pack for a specific trade (clinics, agencies) in the Lesson 12 pattern, because prompts are where per business practice lives. Notice the form: each item extends a named lesson pattern rather than reopening the spec, and none of them is required for the capstone to be complete. Your three should read the same way.
