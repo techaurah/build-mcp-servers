@@ -1,0 +1,3 @@
+# Solution for Lesson 07: Tool design: schemas, descriptions, and errors models can use
+
+Model entry: name `draft_followup`; description: 'Draft a follow up message for one lead and return the draft text. Drafting only: this tool never sends anything, and a human approves the draft before any send happens elsewhere.' Schema: `lead_id` (string, required), `tone` (string, enum friendly or direct, optional with a stated friendly default if your design allows defaults). It passes because the name is a verb phrase, the description teaches the safety behaviour in plain words, every property is typed, and the enum closes the tone set instead of inviting free text the drafter cannot honour.
