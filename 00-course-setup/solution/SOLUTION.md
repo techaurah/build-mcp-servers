@@ -1,0 +1,3 @@
+# Solution for Lesson 00: Course setup: environment, versions, and how to use this repo
+
+A typical pair of runs: the system Python reports the version as OK but prints the NOTE about the missing SDK import, because the package was never installed globally. Inside the activated environment, after `pip install -r ../requirements.txt`, the same checker prints the OK line for the v1 import, because requirements.txt pins `mcp[cli]>=1.28,<2` and that line provides `mcp.server.fastmcp`. The lesson: the checker is not testing you, it is testing which Python and which packages the shell will actually use, which is the variable that breaks MCP setups most often in practice.
