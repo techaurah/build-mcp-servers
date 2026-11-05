@@ -1,0 +1,15 @@
+# Lesson 22: example pyproject.toml for the leaddesk package.
+# Shown as data for the checker; the capstone ships the real one.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leaddesk-mcp"
+version = "1.0.0"
+description = "Teaching MCP server for lead pipelines"
+requires-python = ">=3.11"
+dependencies = ["mcp[cli]>=1.28,<2"]
+
+[project.scripts]
+leaddesk = "leaddesk.server:main"

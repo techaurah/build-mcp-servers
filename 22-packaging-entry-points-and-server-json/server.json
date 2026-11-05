@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.techaurah/leaddesk",
+  "description": "Lead pipeline MCP server: capture, score, and book leads with dedup, approval modes, and demo mode.",
+  "repository": {
+    "url": "https://github.com/techaurah/build-mcp-servers",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "leaddesk-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "LEADDESK_MODE",
+          "description": "demo or live",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
