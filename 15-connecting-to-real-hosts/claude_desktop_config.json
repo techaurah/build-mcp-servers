@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "leaddesk": {
+      "command": "/ABSOLUTE/PATH/TO/.venv/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/06-your-first-server-one-tool-over-stdio/server_sdk.py"
+      ],
+      "env": {
+        "LEADDESK_MODE": "demo"
+      }
+    }
+  }
+}
