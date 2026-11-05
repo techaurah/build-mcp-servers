@@ -1,0 +1,3 @@
+# Solution for Lesson 06: Your first server: one tool over stdio with the Python SDK
+
+The wrapper is a decorated function whose parameters mirror the logic function and whose body is a single return. The docstring that earns its place: 'Store a new lead in the pipeline and return its id. Deduplicates on email, so calling twice with the same email is safe and returns the existing lead.' Notice it teaches the model the dedup behaviour, not just the mechanics. The schema appears because the type hints are complete and the parameters have no defaults, which the SDK reads as required. And yes: `lead_logic.py` did not change. The new capability was already tested there; the lesson's architecture did its job.
