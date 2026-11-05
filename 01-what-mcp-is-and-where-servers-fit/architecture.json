@@ -1,0 +1,30 @@
+{
+  "roles": {
+    "host": {
+      "examples": [
+        "Claude Desktop",
+        "Claude Code",
+        "VS Code",
+        "your own agent"
+      ],
+      "job": "Owns the user experience and the model. Shows discovered tools to the model."
+    },
+    "client": {
+      "lives_in": "host",
+      "job": "One connection to one server. Carries JSON-RPC messages."
+    },
+    "server": {
+      "examples": [
+        "LeadDesk (this course)",
+        "LeadPipe MCP",
+        "filesystem server"
+      ],
+      "job": "Offers tools, resources, and prompts. Owns and runs its code and its rules."
+    }
+  },
+  "message_format": "JSON-RPC 2.0",
+  "transports": [
+    "stdio",
+    "streamable-http"
+  ]
+}
