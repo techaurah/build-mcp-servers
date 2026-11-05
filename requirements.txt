@@ -1,0 +1,12 @@
+# Build MCP Servers: requirements
+#
+# The course's twins, logic layers, checkers, and smoke tests run on
+# the Python 3.11+ standard library alone, so a fresh clone verifies
+# before any package decision is made.
+#
+# The SDK layer pins the official Python MCP SDK v1 line on purpose
+# (Lesson 00 explains why; Lesson 25 covers the v2 line):
+mcp[cli]>=1.28,<2
+#
+# Optional, not installed by this file: Node 18 or newer for the
+# standalone MCP Inspector package and the TypeScript lesson.

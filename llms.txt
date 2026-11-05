@@ -1,0 +1,46 @@
+# Build MCP Servers
+
+A free, complete course on building Model Context Protocol servers: protocol, tools, resources, prompts, clients, transports, auth, security, packaging, publishing, and a capstone lead pipeline server (LeadDesk MCP). Python first, official SDK v1 line pinned, offline twins throughout.
+
+## Lessons
+
+- Lesson 00: Course setup: environment, versions, and how to use this repo (00-course-setup/): Get a verified setup and a version pin you can defend
+- Lesson 01: What MCP is, and where a server fits (01-what-mcp-is-and-where-servers-fit/): Host, client, server: the roles and the M times N problem
+- Lesson 02: The protocol on the wire: JSON-RPC, lifecycle, and capabilities (02-the-protocol-on-the-wire/): Speak MCP by hand through a twin server
+- Lesson 03: Tools, resources, prompts: the three server primitives (03-tools-resources-prompts/): Classify by who decides: model, application, or user
+- Lesson 04: Client features: sampling, roots, elicitation, logging, and progress (04-client-features-sampling-roots-elicitation/): Reverse requests and the quiet utilities, with current status
+- Lesson 05: Choosing an SDK, and reading the specification without fear (05-choosing-an-sdk-and-reading-the-spec/): The two FastMCPs disambiguated, and a four move spec method
+- Lesson 06: Your first server: one tool over stdio with the Python SDK (06-your-first-server-one-tool-over-stdio/): A real SDK server, logic first, tested three ways
+- Lesson 07: Tool design: schemas, descriptions, and errors models can use (07-tool-design-schemas-descriptions-errors/): A design checker audits your catalogue
+- Lesson 08: Structured content, return types, and tool annotations (08-structured-content-and-annotations/): Honest hints hosts rely on: read only, destructive, idempotent, open world
+- Lesson 09: Testing without a model: Inspector, scripted clients, and smoke tests (09-testing-without-a-model/): Three testing layers and the Inspector debugging law
+- Lesson 10: Resources: exposing data the application controls (10-resources-exposing-data/): Stable URIs, typed reads, and reading that changes nothing
+- Lesson 11: Resource templates, subscriptions, and change notifications (11-resource-templates-and-subscriptions/): One pattern for many items, updates only where subscribed
+- Lesson 12: Prompts: reusable workflows users invoke on purpose (12-prompts-reusable-workflows/): Package team practice as named, argument taking templates
+- Lesson 13: State, files, and databases inside a server (13-state-files-and-databases/): The state ladder, SQLite, and a deterministic demo mode
+- Lesson 14: Building an MCP client in Python (14-building-an-mcp-client/): Sessions, error shapes, and clean shutdown, twin and SDK
+- Lesson 15: Connecting to real hosts: config files, Claude Desktop, VS Code, and friends (15-connecting-to-real-hosts/): The mcpServers shape and the absolute path rule
+- Lesson 16: Debugging: stdout traps, logs, and the failure catalogue (16-debugging-the-failure-catalogue/): Ten known failures, placed by phase, with first moves
+- Lesson 17: Stdio in depth: process lifecycle, framing, and environment (17-stdio-in-depth-and-process-lifecycle/): Newline framing, lifecycle ownership, and defensive paths
+- Lesson 18: Streamable HTTP: the remote transport (18-streamable-http-the-remote-transport/): One endpoint, two answer shapes, and the deprecated shape to avoid
+- Lesson 19: Authentication for remote servers: OAuth 2.1, tokens, and least privilege (19-auth-for-remote-servers/): Authorise the action, not just the connection
+- Lesson 20: Security hardening: tool poisoning, prompt injection, and sandboxing (20-security-hardening/): Design so a successful injection buys an attacker little
+- Lesson 21: Errors, retries, timeouts, and idempotent writes (21-errors-retries-timeouts-idempotency/): A written error policy and booking keys that make retries safe
+- Lesson 22: Packaging: project layout, entry points, and server.json (22-packaging-entry-points-and-server-json/): From script to installable package with a registry manifest
+- Lesson 23: Publishing and discovery: Registry, directories, and a README that gets you found (23-publishing-and-discovery/): The real landscape, practised on LeadPipe, without tricks
+- Lesson 24: Observability: logging, tracing a call, and knowing your costs (24-observability-logging-and-cost/): Structured logs, one call's biography, and the three currencies
+- Lesson 25: Versioning: protocol revisions, SDK lines, and keeping a course honest (25-versioning-protocol-and-sdk/): Five dated revisions, two SDK clocks, one maintenance habit
+- Lesson 26: TypeScript servers in one lesson, for Python learners (26-typescript-servers-in-one-lesson/): McpServer, Zod, and transports mapped to what you know
+- Lesson 27: Composing servers: many servers, one client, and routing (27-composing-servers/): Merged catalogues, collisions, and when a gateway earns its keep
+- Lesson 28: Capstone spec and scaffolding: LeadDesk MCP (28-capstone-spec-and-scaffolding/): Surface, safety model, and four gates, fixed in advance
+- Lesson 29: Build LeadDesk: tools, resources, and prompts, end to end (29-build-leaddesk/): Logic, twin, and SDK layers agreeing on the same facts
+- Lesson 30: Harden and test LeadDesk: approval writes, dry runs, and the gate suite (30-harden-and-test-leaddesk/): Attack your own build: mode matrix, self audit, failure rehearsal
+- Lesson 31: Ship it: publish, document, and showcase your server (31-ship-it/): The release routine, clean clone first, showcase last
+
+## Key files
+
+- README.md: course landing page and lesson table
+- RESEARCH.md: competitor scan the design answers
+- DESIGN.md: the design this repo was built to
+- resources/glossary.md: every course term in plain language
+- showcase/README.md: finished capstones from learners
