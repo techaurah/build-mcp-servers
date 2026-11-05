@@ -1,0 +1,3 @@
+# Solution for Lesson 09: Testing without a model: Inspector, scripted clients, and smoke tests
+
+Both patterns are in the twin's design. The bad email raises ValueError inside the logic, the server's tools/call branch catches exceptions and returns a result with isError true and the message as text, which is the recoverable channel. The unknown URI never reaches logic: the server returns a JSON-RPC error object with code -32602, which the client surfaces as an exception. Your assertions should check exactly those two different shapes, because conflating them is the bug Lesson 02 warned about. If your first attempt asserted an exception for the bad email, you found the seam yourself, which is the exercise working as intended.
