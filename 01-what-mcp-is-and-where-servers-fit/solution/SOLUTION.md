@@ -1,0 +1,3 @@
+# Solution for Lesson 01: What MCP is, and where a server fits
+
+Worked example, a team spreadsheet of support tickets. Host: the team's AI assistant app. Server: a ticket server exposing two read tools (search tickets, get ticket) and one approval gated write tool (add internal note), plus a resource for the queue summary. Never exposed directly: raw sheet row editing, because nothing would stop a caller overwriting history, and the service account credential, which lives only in the server's environment. The pattern to notice: the server surface is smaller and more rule bound than the underlying system, on purpose.
