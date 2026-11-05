@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#FFFFFF"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0891B2"/></marker></defs>
+<text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0B1F4A">Security is layers, not a filter</text>
+<text x="40" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#475569">Each layer holds when the one above it is steered.</text>
+<rect x="40" y="98" width="90" height="5" fill="#0891B2"/>
+<rect x="40" y="140" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="213.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Annotations</text>
+<text x="213.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">hosts ask before danger</text>
+<rect x="426" y="140" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="599.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Scopes</text>
+<text x="599.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">tokens bound actions</text>
+<rect x="812" y="140" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="985.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Approval modes</text>
+<text x="985.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">humans gate writes</text>
+<rect x="40" y="260" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="213.0" y="301.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Server side rules</text>
+<text x="213.0" y="325.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">dedup, stages, booking checks</text>
+<rect x="426" y="260" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="599.0" y="301.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Roots and sandbox</text>
+<text x="599.0" y="325.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">reach is fenced</text>
+<rect x="812" y="260" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="985.0" y="301.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Vetting</text>
+<text x="985.0" y="325.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">servers are dependencies</text>
+<text x="40" y="402" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#475569">Design so a successful prompt injection buys an attacker little.</text>
+</svg>

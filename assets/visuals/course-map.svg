@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+<rect width="1200" height="540" fill="#FFFFFF"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0891B2"/></marker></defs>
+<text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0B1F4A">Course map: 32 lessons, one server</text>
+<text x="40" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#475569">Every module adds one layer of LeadDesk. The capstone assembles them.</text>
+<rect x="40" y="98" width="90" height="5" fill="#0891B2"/>
+<rect x="40" y="140" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="213.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M0 Start here</text>
+<text x="213.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 00 to 01</text>
+<rect x="426" y="140" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="599.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M1 Protocol by hand</text>
+<text x="599.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 02 to 05</text>
+<rect x="812" y="140" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="985.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M2 First servers</text>
+<text x="985.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 06 to 09</text>
+<rect x="40" y="260" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="213.0" y="301.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M3 Richer servers</text>
+<text x="213.0" y="325.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 10 to 13</text>
+<rect x="426" y="260" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="599.0" y="301.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M4 Clients and hosts</text>
+<text x="599.0" y="325.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 14 to 16</text>
+<rect x="812" y="260" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="985.0" y="301.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M5 Going remote</text>
+<text x="985.0" y="325.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 17 to 19</text>
+<rect x="40" y="380" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="213.0" y="421.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M6 Production</text>
+<text x="213.0" y="445.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 20 to 25</text>
+<rect x="426" y="380" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="599.0" y="421.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M7 Wider shelf</text>
+<text x="599.0" y="445.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 26 to 27</text>
+<rect x="812" y="380" width="346" height="90" rx="12" fill="#E0F2FE"/>
+<text x="985.0" y="421.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">M8 Capstone</text>
+<text x="985.0" y="445.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">Lessons 28 to 31</text>
+<text x="40" y="522" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#475569">LeadDesk (capstone) reuses every module before it. Nothing is throwaway.</text>
+</svg>
